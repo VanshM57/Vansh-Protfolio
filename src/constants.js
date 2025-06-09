@@ -21,7 +21,8 @@ import postmanLogo from './assets/tech_logo/postman.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import moneymaplogo from './assets/work_logo/moneymaplogo.png';
 import schedulerlogo from './assets/work_logo/schedulerlogo.png';
-// Experience Section Logo's
+import sixmonthslogo from './assets/6monthslogo.png'
+// Experience Section Logo'
 
 
 // Education Section Logo's
@@ -80,39 +81,16 @@ export const SkillsInfo = [
   export const experiences = [
     {
       id: 0,
-      img: vercelLogo,
-      role: "Fullstack Developer",
-      company: "Webverse Digital",
-      date: "April 2024 - Present",
-      desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
+      img: sixmonthslogo,
+      role: "Shopify Product Developer Intern",
+      company: "6months Media & Growth Solutions",
+      date: "June 2024 - July 2024",
+      desc: "Developed customized e-commerce websites using the Shopify platform, focusing on responsive UI, product integration, and user experience optimization. Collaborated with design and marketing teams to build and maintain client stores. Gained hands-on experience in theme customization, Shopify Liquid, and third-party app integration in a fast-paced, client-focused environment.",
       skills: [
         "HTML",
         "CSS",
         "JavaScript",
-        "React JS",
-        "TypeScript",
-        "Node JS",
-        "Tailwind CSS",
-        "MongoDb",
-        "Redux",
-        " Next Js",
-      ],
-    },
-    {
-      id: 1,
-      img: vercelLogo,
-      role: "Fullstack Engineer",
-      company: "Agumentik Group of Companies",
-      date: "July 2023 - March 2024",
-      desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
-      skills: [
-        "ReactJS",
-        "Redux",
-        "JavaScript",
-        "Tailwind CSS",
-        "HTML",
-        "CSS",
-        "SQL",
+        "Shopify"
       ],
     },
   ];
