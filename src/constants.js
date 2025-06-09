@@ -37,8 +37,8 @@ export const SkillsInfo = [
     skills: [
       { name: 'HTML', logo: htmlLogo },
       { name: 'CSS', logo: cssLogo },
-      { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
+      { name: 'JavaScript', logo: javascriptLogo },
       { name: 'Redux', logo: reduxLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
     ],
