@@ -19,6 +19,8 @@ import githubLogo from './assets/tech_logo/github.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
 import postmanLogo from './assets/tech_logo/postman.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
+import moneymaplogo from './assets/work_logo/moneymaplogo.png';
+import schedulerlogo from './assets/work_logo/schedulerlogo.png';
 // Experience Section Logo's
 
 
@@ -141,10 +143,28 @@ export const SkillsInfo = [
       date: "2018-2019",
       grade: "87.17%",
       desc: "I completed my class 10 education from Adarsh Vidhya Mandir, Baharawanda Khurd, under the RBSE board.",
-      degree: "RBSE(X), Science and Mathematics",
+      degree: "RBSE(X)",
     },
   ];
   
+  export const projects = [
+    {
+      id: 0,
+      title: "MoneyMap",
+      descriptions: "A powerful and user-friendly React.js and Firebase application designed to manage and visualize personal finances effortlessly. Simply add your income and expenses, and the app tracks your financial activity in real-time. It fetches, stores, and displays categorized transactions, insightful charts, and balance updates. The clean interface ensures a seamless experience, making it a must-have tool for individuals seeking better financial control.",
+      image: moneymaplogo,
+      tags: ["HTML", "CSS", "JavaScript", "React JS", "Firebase",'Tailwind CSS','Ant Design'],
+      github: "https://github.com/VanshM57/MoneyMap"
+    },
+    {
+      id: 1,
+      title: "Scheduler",
+      descriptions: "A powerful and user-friendly MERN stack application designed to organize and manage daily class schedules with ease. Simply log in to view, add, or update periods for the day, and the app fetches real-time data for seamless scheduling. With features like class tracking, teacher-room mapping, and admin-level statistics, it ensures smooth academic planning. The intuitive interface makes it an essential tool for students, teachers, and administrators alike.",
+      image: schedulerlogo,
+      tags: ['HTML', 'CSS', 'JavaScript', 'React JS', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS'],
+      github: "https://github.com/VanshM57/Scheduler"
+    }
+  ]
 //   export const projects = [
 //     {
 //       id: 0,

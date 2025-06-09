@@ -22,6 +22,10 @@ const Navbar = () => {
   const handleMenuItemClick = (sectionId)=>{
     setActiveSection(sectionId);
     setIsOpen(false);
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
   }
   const menuItems = [
     {id: 'about', label: 'About'},
@@ -45,8 +49,8 @@ const Navbar = () => {
         {/* desktop menu */}
         <ul className='hidden md:flex space-x-8 text-gray-300'>
           {menuItems.map(item => (
-            <li key={item.id} className='cursor-pointer hover:text-[#8245ec] transition-all duration-300
-          ${activeSection === item.id ? "text-[#8245ec]" : ""}'>
+            <li key={item.id} className={`cursor-pointer hover:text-[#8245ec] transition-all duration-300
+          ${activeSection === item.id ? "text-[#8245ec]" : ""}`}>
               <button onClick={()=> handleMenuItemClick(item.id)}>
                 {item.label}
               </button>
