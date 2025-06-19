@@ -22,6 +22,7 @@ const About = () => {
               I am a </span>
             <ReactTypingEffect
               text={[
+                "Vansh Mishra",
                 "MERN Stack Developer",
                 "Software Engineer",
                 "Coder",
