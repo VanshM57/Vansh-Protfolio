@@ -19,14 +19,14 @@ const About = () => {
           {/* skills heading with typing effect */}
           <h3 className='text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight'>
             <span className='text-white'>
-              I am a </span>
+              I am </span>
             <ReactTypingEffect
               text={[
                 "Vansh Mishra",
-                "MERN Stack Developer",
-                "Software Engineer",
-                "Coder",
-                "Tech Enthusiast",
+                "a MERN Stack Developer",
+                "a Software Engineer",
+                "a Coder",
+                "a Tech Enthusiast",
               ]}
               speed={100}
               eraseSpeed={50}
