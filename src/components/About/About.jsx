@@ -2,6 +2,7 @@ import React from 'react'
 import ReactTypingEffect from 'react-typing-effect'
 import Tilt from 'react-parallax-tilt'
 import portfolioImage from '../../assets/portfolioImage.png'
+import cv from '../../assets/Vansh Mishra-CV.pdf'
 const About = () => {
   return (
     <section id='about'
@@ -41,7 +42,8 @@ const About = () => {
             I am a passionate MERN Stack Developer with a keen interest in building dynamic and responsive web applications. I love to explore new technologies and continuously improve my skills. Let's connect and create something amazing together!
           </p>
           {/* resume button */}
-          <a href=""
+          
+          <a href={cv} download=""
            target='_blank' 
            rel='noopener noreferrer' 
            className='inline-block text-white py-3 px-8 rounded-full mt-5
