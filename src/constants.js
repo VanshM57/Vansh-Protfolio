@@ -21,7 +21,12 @@ import postmanLogo from './assets/tech_logo/postman.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import moneymaplogo from './assets/work_logo/moneymaplogo.png';
 import schedulerlogo from './assets/work_logo/schedulerlogo.png';
-import sixmonthslogo from './assets/6monthslogo.png'
+import sixmonthslogo from './assets/6monthslogo.png';
+import weatherlogo from './assets/work_logo/weatherlogo.png';
+import qrcodelogo from './assets/work_logo/qrcodelogo.png';
+import passwordgeneratorlogo from './assets/work_logo/passwordgeneratorlogo.png';
+import currencyconverterlogo from './assets/work_logo/currencyconverterlogo.png';
+import basiccrudlogo from './assets/work_logo/basiccrudlogo.png';
 // Experience Section Logo'
 
 
@@ -141,7 +146,40 @@ export const SkillsInfo = [
       image: schedulerlogo,
       tags: ['HTML', 'CSS', 'JavaScript', 'React JS', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS'],
       github: "https://github.com/VanshM57/Scheduler"
-    }
+    },
+    {
+      id: 2,
+      title: "Weather App",
+      descriptions: "A clean and user-friendly weather application built using HTML, CSS, JavaScript, and external APIs to deliver real-time weather updates with ease. Simply enter any city name to instantly view live data including temperature, weather conditions, humidity, and wind speed. With features like smart city suggestions powered by the GeoDB Cities API and error handling using custom visuals, the app ensures a smooth and intuitive experience. Its responsive design and accurate results make it a handy tool for anyone wanting quick access to weather insights from around the world.",
+      image: weatherlogo,
+      tags: ['HTML', 'CSS', 'JavaScript', 'OpenWeatherMap API', 'GeoDB Cities API'],
+      github: "https://github.com/VanshM57/Weather__App"
+    },
+    {
+      id: 3,
+      title: "QR Code Generator",
+      descriptions: "A fast and intuitive QR Code Generator built using HTML, CSS, and JavaScript, designed to create QR codes instantly with just a few keystrokes. Users can simply enter any text, URL, or custom input, and the app generates a scannable QR code in real time. With a clean and responsive design, it ensures a smooth user experience across all devices.",
+      image: qrcodelogo,
+      tags: ['HTML', 'CSS', 'JavaScript', 'QR Code API'],
+      github: "https://github.com/VanshM57/QrCodeGenerator"
+    },
+    {
+      id: 4,
+      title: "Password Generator",
+      descriptions: "A secure and customizable Password Generator application built using React to help users create strong, random passwords effortlessly. Users can define password length and choose to include uppercase letters, lowercase letters, numbers, and special characters. With real-time password generation and a one-click copy feature, the app ensures both convenience and security. Its responsive interface offers a seamless experience across devices, making it a practical tool for enhancing account protection and promoting safe password practices.",
+      image: passwordgeneratorlogo,
+      tags: ['HTML', 'Tailwind CSS', 'React JS'],
+      github: "https://github.com/VanshM57/Password-Generator"
+    },
+    {
+      id: 5,
+      title: "Currency Converter",
+      descriptions: "A sleek and efficient Currency Converter application built using React, designed to provide real-time currency exchange rates and conversions. Users can easily select their desired currencies and input amounts to instantly view converted values. The app fetches live data from a reliable API, ensuring accurate and up-to-date information. With its user-friendly interface and responsive design, it offers a seamless experience for travelers, businesses, and anyone needing quick currency conversions.",
+      image: currencyconverterlogo,
+      tags: ['HTML', 'CSS', 'JavaScript', 'React JS', 'API'],
+      github: "https://github.com/VanshM57/currency-converter"
+    },
+
   ]
 //   export const projects = [
 //     {
