@@ -27,6 +27,10 @@ import qrcodelogo from './assets/work_logo/qrcodelogo.png';
 import passwordgeneratorlogo from './assets/work_logo/passwordgeneratorlogo.png';
 import currencyconverterlogo from './assets/work_logo/currencyconverterlogo.png';
 import basiccrudlogo from './assets/work_logo/basiccrudlogo.png';
+import aicontentgenerator from './assets/work_logo/aicontentgenerator.png'
+import postgre from './assets/tech_logo/postgre.png'
+import nextjs from './assets/tech_logo/nextjs.png'
+import typescript from './assets/tech_logo/typescript.png'
 // Experience Section Logo'
 
 
@@ -47,6 +51,8 @@ export const SkillsInfo = [
       { name: 'CSS', logo: cssLogo },
       { name: 'React JS', logo: reactjsLogo },
       { name: 'JavaScript', logo: javascriptLogo },
+      { name: 'Next JS', logo: nextjs},
+      { name: 'TypeScript', logo: typescript},
       { name: 'Redux', logo: reduxLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
     ],
@@ -59,6 +65,7 @@ export const SkillsInfo = [
       { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
       { name: 'Firebase', logo: firebaseLogo },
+      { name: 'Postgres', logo: postgre}
     ],
   },
   {
@@ -133,6 +140,14 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
+      title: "AI-Content-Generator",
+      descriptions: "Developed a full-stack AI content generator web application using Next.js, TypeScript, PostgreSQL, Drizzle ORM, and Clerk for authentication. Integrated Gemini AI API to power 15+ tools like blog generators, YouTube SEO tools, Instagram post creators, and code analysis utilities. Designed a responsive and accessible UI using shadcn/ui, delivering a smooth user experience for content creation and optimization.",
+      image: aicontentgenerator,
+      tags: ["HTML","CSS","JavaScript","React JS","Next JS","TypeScript","Tailwind CSS","ShadCn","PostgreSQL","Clerk"],
+      github: "https://github.com/VanshM57/ai-content-generator"
+    },
+    {
+      id: 1,
       title: "MoneyMap",
       descriptions: "A powerful and user-friendly React.js and Firebase application designed to manage and visualize personal finances effortlessly. Simply add your income and expenses, and the app tracks your financial activity in real-time. It fetches, stores, and displays categorized transactions, insightful charts, and balance updates. The clean interface ensures a seamless experience, making it a must-have tool for individuals seeking better financial control.",
       image: moneymaplogo,
@@ -140,7 +155,7 @@ export const SkillsInfo = [
       github: "https://github.com/VanshM57/MoneyMap"
     },
     {
-      id: 1,
+      id: 2,
       title: "Scheduler",
       descriptions: "A powerful and user-friendly MERN stack application designed to organize and manage daily class schedules with ease. Simply log in to view, add, or update periods for the day, and the app fetches real-time data for seamless scheduling. With features like class tracking, teacher-room mapping, and admin-level statistics, it ensures smooth academic planning. The intuitive interface makes it an essential tool for students, teachers, and administrators alike.",
       image: schedulerlogo,
@@ -148,7 +163,7 @@ export const SkillsInfo = [
       github: "https://github.com/VanshM57/Scheduler"
     },
     {
-      id: 2,
+      id: 3,
       title: "Weather App",
       descriptions: "A clean and user-friendly weather application built using HTML, CSS, JavaScript, and external APIs to deliver real-time weather updates with ease. Simply enter any city name to instantly view live data including temperature, weather conditions, humidity, and wind speed. With features like smart city suggestions powered by the GeoDB Cities API and error handling using custom visuals, the app ensures a smooth and intuitive experience. Its responsive design and accurate results make it a handy tool for anyone wanting quick access to weather insights from around the world.",
       image: weatherlogo,
@@ -156,7 +171,7 @@ export const SkillsInfo = [
       github: "https://github.com/VanshM57/Weather__App"
     },
     {
-      id: 3,
+      id: 4,
       title: "QR Code Generator",
       descriptions: "A fast and intuitive QR Code Generator built using HTML, CSS, and JavaScript, designed to create QR codes instantly with just a few keystrokes. Users can simply enter any text, URL, or custom input, and the app generates a scannable QR code in real time. With a clean and responsive design, it ensures a smooth user experience across all devices.",
       image: qrcodelogo,
@@ -164,7 +179,7 @@ export const SkillsInfo = [
       github: "https://github.com/VanshM57/QrCodeGenerator"
     },
     {
-      id: 4,
+      id: 5,
       title: "Password Generator",
       descriptions: "A secure and customizable Password Generator application built using React to help users create strong, random passwords effortlessly. Users can define password length and choose to include uppercase letters, lowercase letters, numbers, and special characters. With real-time password generation and a one-click copy feature, the app ensures both convenience and security. Its responsive interface offers a seamless experience across devices, making it a practical tool for enhancing account protection and promoting safe password practices.",
       image: passwordgeneratorlogo,
@@ -172,7 +187,7 @@ export const SkillsInfo = [
       github: "https://github.com/VanshM57/Password-Generator"
     },
     {
-      id: 5,
+      id: 6,
       title: "Currency Converter",
       descriptions: "A sleek and efficient Currency Converter application built using React, designed to provide real-time currency exchange rates and conversions. Users can easily select their desired currencies and input amounts to instantly view converted values. The app fetches live data from a reliable API, ensuring accurate and up-to-date information. With its user-friendly interface and responsive design, it offers a seamless experience for travelers, businesses, and anyone needing quick currency conversions.",
       image: currencyconverterlogo,
