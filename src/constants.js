@@ -31,6 +31,8 @@ import aicontentgenerator from './assets/work_logo/aicontentgenerator.png'
 import postgre from './assets/tech_logo/postgre.png'
 import nextjs from './assets/tech_logo/nextjs.png'
 import typescript from './assets/tech_logo/typescript.png'
+import churn_prediction from './assets/work_logo/churn_prediction.png'
+import black_marlin from './assets/black_marlin.jpg'
 // Experience Section Logo'
 
 
@@ -105,6 +107,21 @@ export const SkillsInfo = [
         "Shopify"
       ],
     },
+    {
+      id: 1,
+      img: black_marlin,
+      role: "Data and Development Intern",
+      company: "The Black Marlin Digital Solutions",
+      date: "June 2025 - July 2025",
+      desc: " at The Black Marlin Digital Solutions where I worked in the data and development field. Analyzed datasets and created analytical visuals like graphs and bar charts to derive insights. Also contributed to web development using the MERN stack and Shopify.",
+      skills: [
+        "Data Cleaning",
+        "Data Analysis",
+        "MERN Stack",
+        "Shopify"
+      ],
+
+    }
   ];
   
   export const education = [
@@ -163,7 +180,15 @@ export const SkillsInfo = [
       github: "https://github.com/VanshM57/Scheduler"
     },
     {
-      id: 3,
+      id:3,
+      title: "Employee Churn Prediction",
+      description: "Developed an ANN-based customer churn prediction pipeline using TensorFlow (Keras) on the “Churn_Modelling” dataset; implemented label & one‑hot encoding, StandardScaler preprocessing, and trained a binary classifier (sigmoid output) achieving strong validation performance.",
+      image: churn_prediction,
+      tags: ["Python","TensorFlow","Keras","NumPy","pandas","scikit-learn","Streamlit","TensorBoard","Jupyter","ANN","Binary Classification","Data Preprocessing","OneHotEncoder","LabelEncoder","StandardScaler"],
+      github: "https://github.com/VanshM57/Churn_Prediction_Using_ANN"
+    },
+    {
+      id: 4,
       title: "Weather App",
       descriptions: "A clean and user-friendly weather application built using HTML, CSS, JavaScript, and external APIs to deliver real-time weather updates with ease. Simply enter any city name to instantly view live data including temperature, weather conditions, humidity, and wind speed. With features like smart city suggestions powered by the GeoDB Cities API and error handling using custom visuals, the app ensures a smooth and intuitive experience. Its responsive design and accurate results make it a handy tool for anyone wanting quick access to weather insights from around the world.",
       image: weatherlogo,
@@ -171,7 +196,7 @@ export const SkillsInfo = [
       github: "https://github.com/VanshM57/Weather__App"
     },
     {
-      id: 4,
+      id: 5,
       title: "QR Code Generator",
       descriptions: "A fast and intuitive QR Code Generator built using HTML, CSS, and JavaScript, designed to create QR codes instantly with just a few keystrokes. Users can simply enter any text, URL, or custom input, and the app generates a scannable QR code in real time. With a clean and responsive design, it ensures a smooth user experience across all devices.",
       image: qrcodelogo,
@@ -179,7 +204,7 @@ export const SkillsInfo = [
       github: "https://github.com/VanshM57/QrCodeGenerator"
     },
     {
-      id: 5,
+      id: 6,
       title: "Password Generator",
       descriptions: "A secure and customizable Password Generator application built using React to help users create strong, random passwords effortlessly. Users can define password length and choose to include uppercase letters, lowercase letters, numbers, and special characters. With real-time password generation and a one-click copy feature, the app ensures both convenience and security. Its responsive interface offers a seamless experience across devices, making it a practical tool for enhancing account protection and promoting safe password practices.",
       image: passwordgeneratorlogo,
@@ -187,7 +212,7 @@ export const SkillsInfo = [
       github: "https://github.com/VanshM57/Password-Generator"
     },
     {
-      id: 6,
+      id: 7,
       title: "Currency Converter",
       descriptions: "A sleek and efficient Currency Converter application built using React, designed to provide real-time currency exchange rates and conversions. Users can easily select their desired currencies and input amounts to instantly view converted values. The app fetches live data from a reliable API, ensuring accurate and up-to-date information. With its user-friendly interface and responsive design, it offers a seamless experience for travelers, businesses, and anyone needing quick currency conversions.",
       image: currencyconverterlogo,
